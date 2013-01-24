@@ -37,5 +37,4 @@ public class ItsIssue {
   public String toString() {
     return "id="+id+",issue="+issue;
   }
-
 }

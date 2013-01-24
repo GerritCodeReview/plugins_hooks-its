@@ -182,5 +182,4 @@ public class GerritHookFilter implements ChangeListener {
   public String getUrl(PatchSetCreatedEvent hook) {
     return null;
   }
-
 }

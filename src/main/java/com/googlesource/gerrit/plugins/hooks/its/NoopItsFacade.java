@@ -23,7 +23,6 @@ import org.slf4j.LoggerFactory;
 /**
  * An ITS facade doing nothing, it's configured when no ITS
  * are referenced in config
-
  */
 public class NoopItsFacade implements ItsFacade {
 

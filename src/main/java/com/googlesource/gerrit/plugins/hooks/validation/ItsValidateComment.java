@@ -64,7 +64,7 @@ public class ItsValidateComment implements CommitValidationListener {
     String issueId = null;
     ItsAssociationPolicy associationPolicy = ItsAssociationPolicy.OPTIONAL;
     Pattern pattern = null;
-    for ( Entry<Pattern, ItsAssociationPolicy>  entry : regexes.entrySet()) {
+    for (Entry<Pattern, ItsAssociationPolicy>  entry : regexes.entrySet()) {
       pattern = entry.getKey();
       Matcher matcher = pattern.matcher(comment);
       associationPolicy = entry.getValue();
@@ -84,7 +84,7 @@ public class ItsValidateComment implements CommitValidationListener {
               + commit.getId().getName()
               + " not associated to any issue\n"
               + "\n"
-              + "Hint: insert one ore more issue-id anywhere in the commit message.\n"
+              + "Hint: insert one or more issue-id anywhere in the commit message.\n"
               + "      Issue-ids are strings matching " + pattern.pattern() + "\n"
               + "      and are pointing to existing tickets on "
               + client.name() + " Issue-Tracker";

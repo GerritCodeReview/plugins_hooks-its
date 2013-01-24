@@ -26,7 +26,6 @@ public class InitIts implements InitStep {
     Y, N;
   }
 
-
   public static enum TrueFalseEnum {
     TRUE, FALSE;
   }
