@@ -1,0 +1,225 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "OsRFYDCA",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/its/InitIts.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "Nit: extra blank line",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "OsTFVEOc",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/its/ItsIssue.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "What will be the content of issue?  And what will it look like in the string concatenation at line 38?",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "OsXFbmB8",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/its/ItsIssue.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "Nit: extra blank line",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "OsVFelBA",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/its/NoopItsFacade.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "Nit: extra blank line",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "OsbFoILM",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/its/NoopItsFacade.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "Nit: For readability can we break these log lines up?\n\n if (log.isDebugEnabled()) {\n     log.debug(...)\n }",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "OsfGZyNo",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/validation/ItsValidateComment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "s/comment/message",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "OsdGUxKM",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/validation/ItsValidateComment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "Nit: extra spaces",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "OsZFjnNY",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/validation/ItsValidateComment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "s/ore/or",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "OsVGptOM",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilter.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "Does it also need to handle DraftPublishedEvent?",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "OsbGjQAU",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilter.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "Nit: extra line",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "OsXGmOBU",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "Nit: extra blank line",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "OsRGzLFI",
+        "filename": "pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "Whitespace",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "OsTGwsEI",
+        "filename": "pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-24T14:20:26Z",
+      "side": 1,
+      "message": "Need to fill in the date and copyright owner",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
