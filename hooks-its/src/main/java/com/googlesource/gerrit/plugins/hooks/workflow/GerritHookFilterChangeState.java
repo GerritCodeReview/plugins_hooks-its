@@ -19,6 +19,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
@@ -28,6 +29,9 @@ import org.eclipse.jgit.util.FS;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.google.gerrit.common.data.ApprovalType;
+import com.google.gerrit.common.data.ApprovalTypes;
+import com.google.gerrit.reviewdb.client.ApprovalCategory;
 import com.google.gerrit.server.config.SitePath;
 import com.google.gerrit.server.events.ApprovalAttribute;
 import com.google.gerrit.server.events.ChangeAbandonedEvent;
@@ -50,6 +54,11 @@ public class GerritHookFilterChangeState extends GerritHookFilter {
   @Inject
   @SitePath
   private File sitePath;
+
+  @Inject
+  private ApprovalTypes approvalTypes;
+
+  private HashMap<String, String> conditionKeyMapping;
 
   @Override
   public void doFilter(PatchSetCreatedEvent hook) throws IOException {
@@ -183,13 +192,34 @@ public class GerritHookFilterChangeState extends GerritHookFilter {
     return name;
   }
 
+  private HashMap<String, String> getConditionKeyMapping() {
+    if (conditionKeyMapping == null) {
+      conditionKeyMapping = new HashMap<String, String>();
+      for (final ApprovalType type : approvalTypes.getApprovalTypes()) {
+        final ApprovalCategory category = type.getCategory();
+        conditionKeyMapping.put(
+          category.getName().toLowerCase().replace(' ', '-'),
+          category.getId().toString());
+      }
+    }
+    return conditionKeyMapping;
+  }
+
+  private String translateConditionKey(String untranslated) {
+    String translated = getConditionKeyMapping().get(untranslated);
+    if (translated == null) {
+      translated = untranslated;
+    }
+    return translated;
+  }
+
   public class Condition {
     private String key;
     private String[] val;
 
     public Condition(String key, String[] values) {
       super();
-      this.key = key;
+      this.key = GerritHookFilterChangeState.this.translateConditionKey(key);
       this.val = values;
     }
 
