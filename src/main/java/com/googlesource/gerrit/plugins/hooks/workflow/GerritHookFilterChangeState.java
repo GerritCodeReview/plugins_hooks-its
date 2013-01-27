@@ -189,6 +189,12 @@ public class GerritHookFilterChangeState extends GerritHookFilter {
 
     public Condition(String key, String[] values) {
       super();
+      if ("VRIF".equals(key)) {
+        key = "verified";
+      }
+      if ("CRVW".equals(key)) {
+        key = "code-review";
+      }
       this.key = key;
       this.val = values;
     }
