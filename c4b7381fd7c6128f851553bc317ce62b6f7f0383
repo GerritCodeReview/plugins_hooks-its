@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "O6-cWYE4",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddRelatedLinkToGitWeb.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-28T06:17:27Z",
+      "side": 1,
+      "message": "Instead of returning, why not put the block at lines 66-73 inside `if (gitUrl !\u003d null) {`?",
+      "revId": "c4b7381fd7c6128f851553bc317ce62b6f7f0383",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
