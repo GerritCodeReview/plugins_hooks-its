@@ -16,6 +16,24 @@
       "revId": "c4b7381fd7c6128f851553bc317ce62b6f7f0383",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "O7JYX7E0",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddRelatedLinkToGitWeb.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-01-28T11:41:39Z",
+      "side": 1,
+      "message": "Because we are just bailing out, hence there is no need to increase code complexity by increasing nestedness of code.\n\nAnyways, patch set 2 does what you suggested.",
+      "parentUuid": "O6-cWYE4",
+      "revId": "c4b7381fd7c6128f851553bc317ce62b6f7f0383",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
