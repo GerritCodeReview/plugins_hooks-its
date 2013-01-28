@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "O3UUjCqo",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/its/InitIts.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-28T17:22:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "OsRFYDCA",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "OsTFVEOc",
         "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/its/ItsIssue.java",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2013-01-24T14:20:26Z",
       "side": 1,
       "message": "What will be the content of issue?  And what will it look like in the string concatenation at line 38?",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "O3aVCvj4",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/its/ItsIssue.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-28T17:22:46Z",
+      "side": 1,
+      "message": "Actually the entire Class is overkilling here: we only need to know if an issue exists or not BUT we don\u0027t need to have the full issue object in memory.\n\nRemoving the entire class as it is useless at this point.",
+      "parentUuid": "OsTFVEOc",
       "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
@@ -70,6 +106,24 @@
     },
     {
       "key": {
+        "uuid": "O3YVHwk4",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/its/NoopItsFacade.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-28T17:22:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "OsVFelBA",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "OsbFoILM",
         "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/its/NoopItsFacade.java",
         "patchSetId": 4
@@ -81,6 +135,24 @@
       "writtenOn": "2013-01-24T14:20:26Z",
       "side": 1,
       "message": "Nit: For readability can we break these log lines up?\n\n if (log.isDebugEnabled()) {\n     log.debug(...)\n }",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "O3eVMtnQ",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/its/NoopItsFacade.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-28T17:22:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "OsbFoILM",
       "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
@@ -104,6 +176,24 @@
     },
     {
       "key": {
+        "uuid": "O3cVRugg",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/validation/ItsValidateComment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-28T17:22:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "OsfGZyNo",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "OsdGUxKM",
         "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/validation/ItsValidateComment.java",
         "patchSetId": 4
@@ -115,6 +205,24 @@
       "writtenOn": "2013-01-24T14:20:26Z",
       "side": 1,
       "message": "Nit: extra spaces",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "O3QU0ctc",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/validation/ItsValidateComment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-28T17:22:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "OsdGUxKM",
       "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
@@ -138,6 +246,24 @@
     },
     {
       "key": {
+        "uuid": "O3WVB5jU",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/validation/ItsValidateComment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-28T17:22:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "OsZFjnNY",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "OsVGptOM",
         "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilter.java",
         "patchSetId": 4
@@ -149,6 +275,24 @@
       "writtenOn": "2013-01-24T14:20:26Z",
       "side": 1,
       "message": "Does it also need to handle DraftPublishedEvent?",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "O3UU.ark",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilter.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-28T17:22:46Z",
+      "side": 1,
+      "message": "Draft is private and incomplete by definition: I wouldn\u0027t tie to any issue-tracking validation or workflow.\n\nIt is mainly used for people to have an \"early look\" at a change and potentially the dev could be already fully aware that is not complete. Better not to bother with extra validation then ;-)",
+      "parentUuid": "OsVGptOM",
       "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
@@ -172,6 +316,24 @@
     },
     {
       "key": {
+        "uuid": "O3aVpHrs",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilter.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-28T17:22:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "OsbGjQAU",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "OsXGmOBU",
         "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
         "patchSetId": 4
@@ -189,6 +351,24 @@
     },
     {
       "key": {
+        "uuid": "O3YVuor4",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-28T17:22:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "OsXGmOBU",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "OsRGzLFI",
         "filename": "pom.xml",
         "patchSetId": 4
@@ -200,6 +380,24 @@
       "writtenOn": "2013-01-24T14:20:26Z",
       "side": 1,
       "message": "Whitespace",
+      "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "O3eVjFtU",
+        "filename": "pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-28T17:22:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "OsRGzLFI",
       "revId": "cab69be9ce3509769a0f95b96fee071884324e60",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
