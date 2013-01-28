@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "O7DYCmBQ",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-01-28T11:29:10Z",
+      "side": 1,
+      "message": "My code just came prepared to be able to append the email addresses without much fuzz. Anyways, Patch Set 2 contains your suggestion\n\nIs the \"multiple return statements\" way the gerrit way, even if not just bailing out, but returning a real value?",
+      "parentUuid": "O65cX5E0",
+      "revId": "6b8ebb3e0e631388a3e3d309fa6cc99b7eef5bce",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "O67cc6HI",
         "filename": "src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-01-28T06:14:59Z",
       "side": 1,
       "message": "Nit: parameter should not be surrounded by spaces.",
+      "revId": "6b8ebb3e0e631388a3e3d309fa6cc99b7eef5bce",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "O7FYPFDs",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-01-28T11:29:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "O67cc6HI",
       "revId": "6b8ebb3e0e631388a3e3d309fa6cc99b7eef5bce",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
