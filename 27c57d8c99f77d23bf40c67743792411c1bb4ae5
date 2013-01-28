@@ -16,6 +16,24 @@
       "revId": "27c57d8c99f77d23bf40c67743792411c1bb4ae5",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "O7DYpuIw",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterChangeState.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-01-28T12:44:47Z",
+      "side": 1,
+      "message": "The intention of this mapping is not a bulletproof, one-size-fits-all\nlabel mapping, but rather sane default mapping easing initial setup.\n\nFor the conditions themselves, you can use any approval category\nid. So for example\n\n  [action \"status IN_PROGRESS\"]\n\tVRIF\u003d+1\n\nworks with and without this patch set. However, the current\ndocumentation of hooks-its calls for \"verified\" and \"code-review\". And\nI agree with the documentation that being able to rephrase the above\nexample as\n\n  [action \"status IN_PROGRESS\"]\n\tverified\u003d+1\n\ngives a more intuitive configuration for newcomers such as\nmyself. Thereby, hopefully lowering the hurdle for gerrit users to\nconfigure a connection between gerrit and an its.\n\nAs an alternative, we could stop interpreting conditions as ApprovalCategory id and instead interpret them as lowercase ApprovalCategory names, having \u0027 \u0027 replaced by \u0027-\u0027. Would this be more viable?",
+      "parentUuid": "O6zcpuIw",
+      "revId": "27c57d8c99f77d23bf40c67743792411c1bb4ae5",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
