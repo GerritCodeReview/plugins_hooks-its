@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "O61cPDDs",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-28T00:57:51Z",
+      "side": 1,
+      "message": "Remove the \"[RFC]\" before this is merged.",
+      "revId": "dec88f939521824b939fc2ad0e753b4fcde9da31",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
