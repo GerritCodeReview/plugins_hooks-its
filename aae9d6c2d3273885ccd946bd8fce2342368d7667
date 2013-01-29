@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "O8ZGUPKM",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterChangeState.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-29T08:10:26Z",
+      "side": 1,
+      "message": "This should be \"else if\" to avoid redundant checks.  It can\u0027t be both, so if the first check passes there\u0027s no point doing the second.",
+      "revId": "aae9d6c2d3273885ccd946bd8fce2342368d7667",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "PBZ0KQyg",
         "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterChangeState.java",
         "patchSetId": 2
