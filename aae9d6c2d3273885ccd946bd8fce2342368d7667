@@ -33,6 +33,24 @@
       "revId": "aae9d6c2d3273885ccd946bd8fce2342368d7667",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "PBd0p64s",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterChangeState.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-01-29T15:16:20Z",
+      "side": 1,
+      "message": "The short answer is that I wanted a simple solution for the standard\nsetup :-)\n\nBut as I interpret your question as a \"yes\" to my question in Patch\nSet 1, I added Patch Set 3, which does not introduce a configurable\naliasing, but just does what ReviewCommand does: You are allowed to\ngive the category name in lower case, replacing spaces by dashes.\n\nThereby, we are consistent to what gerrit does, still cover the\nexamples in the documentation, and finally do not rely on a hard-coded\nmapping.\n\nWhat do you think?",
+      "parentUuid": "PBZ0KQyg",
+      "revId": "aae9d6c2d3273885ccd946bd8fce2342368d7667",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
