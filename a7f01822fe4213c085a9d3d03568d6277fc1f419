@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "PBR3-U-E",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddRelatedLinkToGitWeb.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-29T07:57:46Z",
+      "side": 1,
+      "message": "This should go in the commit message, explaining why you did this commit (and not staying in the code, making it less readable)",
+      "revId": "a7f01822fe4213c085a9d3d03568d6277fc1f419",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "PBf0Dhxc",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddRelatedLinkToGitWeb.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1006192
+      },
+      "writtenOn": "2013-01-29T07:57:46Z",
+      "side": 1,
+      "message": "Checks are always better in positive form (gitUrl \u003d\u003d null) and in this case you just want to return: better to break the flow here and avoid nesting.\n\nif (gitUrl \u003d\u003d null) {\n  return;\n}",
+      "revId": "a7f01822fe4213c085a9d3d03568d6277fc1f419",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
