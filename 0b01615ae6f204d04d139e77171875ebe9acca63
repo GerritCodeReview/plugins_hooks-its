@@ -33,6 +33,24 @@
       "revId": "0b01615ae6f204d04d139e77171875ebe9acca63",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "PBR0Yc3k",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-01-29T11:58:45Z",
+      "side": 1,
+      "message": "Actually that\u0027s on purpose, for two reasons.\n\nUsually one wants to limit line length to 80 characters.\nTo me line-broken code is hardly readable.\nBy inlining the variable name, the line would get from currently 78\ncharacters to \u003e80, so I\u0027d have to line break it, and thereby decrease\nreadability.\n\nFurthermore, string concatenation is (to me) more readable if I can\nread it roughly like I would a sentence. Function calls, get in the way.\n\nComparing the current variant:\n\n  String name \u003d formatAccountAttribute(who);\n  return getCommentPrefix(change) + \"change \" + what + \" [by \" + name + \"]\";\n\nto the suggested variant\n\n  return getCommentPrefix(change) + \"change \" + what + \" [by \"\n    + formatAccountAttribute(who) + \"]\";\n\n, the latter is way harder to understand for me. Seems I cannot meet\nthe Gerrit style to write code :-(\n\nJust let me know the variant you prefer, and I\u0027ll push the amended\nchance (including the removal of the blank line above).",
+      "parentUuid": "PBV312xA",
+      "revId": "0b01615ae6f204d04d139e77171875ebe9acca63",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
