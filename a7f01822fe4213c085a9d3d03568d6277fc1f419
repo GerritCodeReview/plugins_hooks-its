@@ -33,6 +33,24 @@
       "revId": "a7f01822fe4213c085a9d3d03568d6277fc1f419",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "O8fFoKLQ",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddRelatedLinkToGitWeb.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-01-29T07:59:22Z",
+      "side": 1,
+      "message": "That\u0027s how it was in patch set 1 and I suggested changing it to this form. :)",
+      "parentUuid": "PBf0Dhxc",
+      "revId": "a7f01822fe4213c085a9d3d03568d6277fc1f419",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
