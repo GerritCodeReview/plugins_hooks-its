@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "Pj3MEwCA",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddRelatedLinkToGitWeb.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-02-06T11:36:06Z",
+      "side": 1,
+      "message": "The commit message already discusses the commit\u0027s purpose.\n\nThis comment just warns the reader that we do not have to deal with logging. But I\u0027ll remove it to avoid confusion.",
+      "parentUuid": "PBR3-U-E",
+      "revId": "a7f01822fe4213c085a9d3d03568d6277fc1f419",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "PBf0Dhxc",
         "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddRelatedLinkToGitWeb.java",
         "patchSetId": 3
