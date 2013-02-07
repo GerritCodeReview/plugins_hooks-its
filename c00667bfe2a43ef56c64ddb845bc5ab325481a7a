@@ -16,6 +16,24 @@
       "revId": "c00667bfe2a43ef56c64ddb845bc5ab325481a7a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "PoYEzWvI",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-02-07T13:49:04Z",
+      "side": 1,
+      "message": "Not sure either whether or not Luca wants that. However, patch set 5 now treats empty as anonymousCoward.",
+      "parentUuid": "Pky8O6T4",
+      "revId": "c00667bfe2a43ef56c64ddb845bc5ab325481a7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
