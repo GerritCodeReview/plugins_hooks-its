@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "Pky8O6T4",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-02-07T01:09:36Z",
+      "side": 1,
+      "message": "What if who.name is an empty string?  Is that OK?\n\nIf we need to avoid empty names, this could be caught by:\n\n if (who !\u003d null \u0026\u0026 !Strings.isNullOrEmpty(who.name)) {",
+      "revId": "c00667bfe2a43ef56c64ddb845bc5ab325481a7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
