@@ -34,6 +34,24 @@
       "revId": "9ed2e7ff2a4b82a289b5030b46c4c370ffc4eedd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "RVqydA6o",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2013-03-11T10:27:47Z",
+      "side": 1,
+      "message": "you could quote it to make this clear \n\n\"its\"",
+      "parentUuid": "RU0.Z7bs",
+      "revId": "9ed2e7ff2a4b82a289b5030b46c4c370ffc4eedd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
