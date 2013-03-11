@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "RYcH.gu8",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-03-11T13:21:42Z",
+      "side": 1,
+      "message": "Thank you David. You took the words right out of my mouth :-)\nI was so hoping for that question, as that was my first impression as\nwell. However, it does not meet the design of hooks-its.\n\nIndeed it\u0027s a two-hold deal breaker.\n\nFirst, although gerrit advocates constructor injection, hooks-its does\nnot use constructor injection too much. So we should not switch to\nconstructor injection due to the local consistency requirement.\n\nSecondly, and more importantly, determining the if condition\u0027s value\nin the constructor does not save us anything, as a new\nGerritHookFilterAddComment instance gets constructed for each\nevent. And due to this lack of benefit, minor nuisances as\n\n* tearing apart things that logically belong together (Checking whether we should add the comment, and acting upon this decision), and more importantly\n* concealing that we query the config for every single change, as a new GerritHookFilterAddComment instance gets constructed anyways\n\nway heavier from my perspective.\n\nSo I\u0027d rather not redesign everything from scratch, but just follow the lead of hooks-its.",
+      "parentUuid": "RU29t0cs",
+      "revId": "aa360c38e5d769152a9ed31f507a1fd846cca8be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "RU09yja8",
         "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2013-03-11T12:16:13Z",
       "side": 1,
       "message": "Doesn\u0027t \u0027true\u0027 here mean it defaults to true if the setting is not found?  If that\u0027s so, in which cases will getBoolean return a value that causes it to enter this condition and just return?",
+      "revId": "aa360c38e5d769152a9ed31f507a1fd846cca8be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "RYeELhi4",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-03-11T13:21:42Z",
+      "side": 1,
+      "message": "\u003e Doesn\u0027t \u0027true\u0027 here mean it defaults to true if the setting is not found?\n\nYou are right. This \u0027true\u0027 is the default value, if no setting is\nfound. I use this default, for backwards compatibility. Current\nhooks-its master adds an ITS comment for each CommentAddedEvent. So we\nshould not change this default behaviour.\n\n\n\u003e If that\u0027s so, in which cases will getBoolean return a value that causes it to enter this condition and just return?\n\n\n  +-------------------------------+------------+-----------+----------------------------+\n  |                               | getBoolean |    if     |                            |\n  |           Variant             |   result   | condition |        Final effect        |\n  +-------------------------------+------------+-----------+----------------------------+\n  | current master                |      -     |     -     | comment gets added         |\n  | commentOnCommentAdded unset   |    true    |   false   | comment gets added         |\n  | commentOnCommentAdded \u003d true  |    true    |   false   | comment gets added         |\n  | commentOnCommentAdded \u003d false |    false   |   true    | comment does not get added |\n  +-------------------------------+------------+-----------+----------------------------+",
+      "parentUuid": "RU09yja8",
       "revId": "aa360c38e5d769152a9ed31f507a1fd846cca8be",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "RYWH4VgY",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-03-11T13:21:42Z",
+      "side": 1,
+      "message": "I\u0027d rather leave the ITS here as simply saying \"causes a comment to be added\" might lead to confusion, as gerrit also has \"comments\". Of course we also have \"associated issue\" afterwards, but I\u0027d rather be overcautious here.",
+      "parentUuid": "RU4.D1UE",
+      "revId": "aa360c38e5d769152a9ed31f507a1fd846cca8be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "RU..AoTY",
         "filename": "hooks-its/src/main/resources/Documentation/config.md",
         "patchSetId": 2
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "RYUHzUiw",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-03-11T13:21:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "RU..AoTY",
+      "revId": "aa360c38e5d769152a9ed31f507a1fd846cca8be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "RU8993Xo",
         "filename": "hooks-its/src/main/resources/Documentation/config.md",
         "patchSetId": 2
@@ -81,6 +153,24 @@
       "writtenOn": "2013-03-11T12:16:13Z",
       "side": 1,
       "message": "s/an/a",
+      "revId": "aa360c38e5d769152a9ed31f507a1fd846cca8be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "RYSHuTkM",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-03-11T13:21:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "RU8993Xo",
       "revId": "aa360c38e5d769152a9ed31f507a1fd846cca8be",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
