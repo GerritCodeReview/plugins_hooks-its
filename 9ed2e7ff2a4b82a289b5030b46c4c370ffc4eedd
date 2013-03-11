@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "RU8.kvfY",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-03-11T10:45:50Z",
+      "side": 1,
+      "message": "There\u0027s an open quote missing before its, or the one after should not be there.",
+      "revId": "9ed2e7ff2a4b82a289b5030b46c4c370ffc4eedd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "RViyKs2I",
         "filename": "hooks-its/src/main/resources/Documentation/config.md",
         "patchSetId": 1
@@ -49,6 +66,58 @@
       "side": 1,
       "message": "you could quote it to make this clear \n\n\"its\"",
       "parentUuid": "RU0.Z7bs",
+      "revId": "9ed2e7ff2a4b82a289b5030b46c4c370ffc4eedd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "RU4.ata0",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-03-11T10:45:50Z",
+      "side": 1,
+      "message": "Since it\u0027s an acronym I think ITS is better.",
+      "parentUuid": "RVqydA6o",
+      "revId": "9ed2e7ff2a4b82a289b5030b46c4c370ffc4eedd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "RU..nAfg",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-03-11T10:45:50Z",
+      "side": 1,
+      "message": "Just \"merging a change\" would be enough.",
+      "revId": "9ed2e7ff2a4b82a289b5030b46c4c370ffc4eedd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "RUy9zybY",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-03-11T10:45:50Z",
+      "side": 1,
+      "message": "s/an/a",
       "revId": "9ed2e7ff2a4b82a289b5030b46c4c370ffc4eedd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
