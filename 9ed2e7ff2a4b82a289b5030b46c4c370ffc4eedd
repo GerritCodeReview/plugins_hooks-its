@@ -16,6 +16,24 @@
       "revId": "9ed2e7ff2a4b82a289b5030b46c4c370ffc4eedd",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "RU0.Z7bs",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-03-11T09:51:57Z",
+      "side": 1,
+      "message": "While I have have no strong opinion on how to capitalize abbreviations, I am somewhat averse to uppercase words. After all they refer to \"screaming\" according the netiquette. That makes abbreviations in all caps that are a proper English word a bad choice.\n\nSo, I\u0027d rather rather misread a plain sentence, than misread a sentence, that screams at me.\n\nEither way, I guess misreading ITS (That screams at me already :-) ) for the plain English word does not lead to a proper sentence for these occurrences.\n\nPatch Set 2 uses ITS.",
+      "parentUuid": "RViyKs2I",
+      "revId": "9ed2e7ff2a4b82a289b5030b46c4c370ffc4eedd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
