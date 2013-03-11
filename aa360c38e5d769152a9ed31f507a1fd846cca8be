@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "RU29t0cs",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-03-11T12:16:13Z",
+      "side": 1,
+      "message": "It would perhaps be better to initialise final member variables in the constructor, and compare to those in the methods.  Then it\u0027s not necessary to read the config every time.",
+      "revId": "aa360c38e5d769152a9ed31f507a1fd846cca8be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "RU09yja8",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddComment.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-03-11T12:16:13Z",
+      "side": 1,
+      "message": "Doesn\u0027t \u0027true\u0027 here mean it defaults to true if the setting is not found?  If that\u0027s so, in which cases will getBoolean return a value that causes it to enter this condition and just return?",
+      "revId": "aa360c38e5d769152a9ed31f507a1fd846cca8be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "RU4.D1UE",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-03-11T12:16:13Z",
+      "side": 1,
+      "message": "Maybe we can just say \"causes a comment to be added\".  We already know it\u0027s an ITS comment.",
+      "revId": "aa360c38e5d769152a9ed31f507a1fd846cca8be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "RU..AoTY",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-03-11T12:16:13Z",
+      "side": 1,
+      "message": "\"comment and/or review\"",
+      "revId": "aa360c38e5d769152a9ed31f507a1fd846cca8be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "RU8993Xo",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-03-11T12:16:13Z",
+      "side": 1,
+      "message": "s/an/a",
+      "revId": "aa360c38e5d769152a9ed31f507a1fd846cca8be",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
