@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "RVuynC-g",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2013-03-11T13:28:54Z",
+      "side": 1,
+      "message": "s/ITS\u0027/\u0027ITS\u0027/ or s/ITS\u0027/ITS/",
+      "revId": "7f567346465133f8399ea2345907da90a4c0366a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
