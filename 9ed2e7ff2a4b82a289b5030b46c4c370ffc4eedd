@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "RViyKs2I",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1004034
+      },
+      "writtenOn": "2013-03-11T07:00:55Z",
+      "side": 1,
+      "message": "\"its\" is ambiguous, you probably meant ITS but \"its\" is a common english word which could be misunderstood by the reader",
+      "revId": "9ed2e7ff2a4b82a289b5030b46c4c370ffc4eedd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
