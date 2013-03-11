@@ -16,6 +16,24 @@
       "revId": "7f567346465133f8399ea2345907da90a4c0366a",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "RYSEXLlc",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-03-11T14:34:08Z",
+      "side": 1,
+      "message": "I am not quite sure what are you referring to.\n\nIf you are hinting at removing the trailing apostrophe .... isn\u0027t that apostrophe mandatory, as there is no section named ITS, but we are referring to the section that is associated to the ITS (i.e.: possession)? Just as in\n\n  Tobias\u0027 response was satisfactory.",
+      "parentUuid": "RVuynC-g",
+      "revId": "7f567346465133f8399ea2345907da90a4c0366a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
