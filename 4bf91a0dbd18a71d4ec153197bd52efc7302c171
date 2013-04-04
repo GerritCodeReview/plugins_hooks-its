@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "S8LJ04Jk",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-04-04T00:55:32Z",
+      "side": 1,
+      "message": "Nit: \"ever since\" seems wrong to me.",
+      "revId": "4bf91a0dbd18a71d4ec153197bd52efc7302c171",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
