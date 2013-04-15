@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "TW6f-6uk",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/validation/ItsValidateComment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1010813
+      },
+      "writtenOn": "2013-04-15T13:00:51Z",
+      "side": 1,
+      "message": "[nit] Since we no longer have the loop, we could shorten this by moving it up 2 lines.",
+      "revId": "4a4fd69d6b057a2bf74d75dc6adef2ead697f7ef",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
