@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "UoGImVsQ",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/GerritHookFilterAddRelatedLinkToChangeId.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1010813
+      },
+      "writtenOn": "2013-05-13T22:13:30Z",
+      "side": 1,
+      "message": "This comment makes me sad :(",
+      "revId": "d500dd393209e2d2b021e724ecf910f6c5dddb7a",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
