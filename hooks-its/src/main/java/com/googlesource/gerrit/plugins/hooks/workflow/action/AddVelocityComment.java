@@ -76,6 +76,9 @@ public class AddVelocityComment implements Action {
         }
       }
     }
+
+    velocityContext.put("its",  new VelocityAdapterItsFacade(its));
+
     return velocityContext;
   }
 
@@ -112,6 +115,43 @@ public class AddVelocityComment implements Action {
     if (!Strings.isNullOrEmpty(template)) {
       String comment = velocify(template, properties);
       its.addComment(issue, comment);
+    }
+  }
+
+  /**
+   * Adapter for ItsFacade to be used through Velocity
+   */
+  // Although we'd prefer to keep this class private, Velocity well only pick
+  // it up, if it is public.
+  public class VelocityAdapterItsFacade {
+
+    private final ItsFacade its;
+
+    private VelocityAdapterItsFacade(ItsFacade its) {
+      this.its = its;
+    }
+
+    /**
+     * Format a link to an url in the used Its' syntax.
+     *
+     * @param url Url to link to
+     * @param caption Text used to represent the link
+     * @return Link to the given url in the used Its' syntax.
+     */
+    public String formatLink(String url, String caption) {
+      return its.createLinkForWebui(url, caption);
+    }
+
+    /**
+     * Format a link to an url.
+     * <p>
+     * The provided url is used as caption for the formatted link.
+     *
+     * @param url Url to link to
+     * @return Link to the given url in the used Its' syntax.
+     */
+    public String formatLink(String url) {
+      return its.createLinkForWebui(url, url);
     }
   }
 }
