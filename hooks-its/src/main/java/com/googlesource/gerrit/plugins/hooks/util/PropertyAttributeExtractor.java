@@ -17,6 +17,7 @@ package com.googlesource.gerrit.plugins.hooks.util;
 import java.util.Set;
 
 import com.google.common.collect.Sets;
+import com.google.gerrit.reviewdb.client.Change.Status;
 import com.google.gerrit.server.data.AccountAttribute;
 import com.google.gerrit.server.data.ApprovalAttribute;
 import com.google.gerrit.server.data.ChangeAttribute;
@@ -61,6 +62,11 @@ public class PropertyAttributeExtractor {
     properties.add(propertyFactory.create("change-id", changeAttribute.id));
     properties.add(propertyFactory.create("change-number", changeAttribute.number));
     properties.add(propertyFactory.create("change-url", changeAttribute.url));
+    String status = null;
+    if (changeAttribute.status!= null) {
+      status = changeAttribute.status.toString();
+    }
+    properties.add(propertyFactory.create("status", status));
     properties.addAll(extractFrom(changeAttribute.owner, "owner"));
     return properties;
   }
