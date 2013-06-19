@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "aadba537_7d0f173f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-06-19T07:38:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4ab4e9dd_9a55cd04",
+      "revId": "5fbb71ab60daa305e5fb3c2687350c5778259567",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6ae52df2_9b2eab94",
         "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/action/AddVelocityComment.java",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2013-06-19T00:44:01Z",
       "side": 1,
       "message": "s/well/will",
+      "revId": "5fbb71ab60daa305e5fb3c2687350c5778259567",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cade1927_9e2e9d94",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/action/AddVelocityComment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-06-19T07:38:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ae52df2_9b2eab94",
       "revId": "5fbb71ab60daa305e5fb3c2687350c5778259567",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "aadba537_bd20bfa7",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/workflow/action/AddVelocityComment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-06-19T07:38:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4ab4e9dd_7a61d9e3",
+      "revId": "5fbb71ab60daa305e5fb3c2687350c5778259567",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6ae52df2_bb2b6783",
         "filename": "hooks-its/src/main/resources/Documentation/config.md",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2013-06-19T00:44:01Z",
       "side": 1,
       "message": "Strange line wrapping here.",
+      "revId": "5fbb71ab60daa305e5fb3c2687350c5778259567",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aadba537_9d2303b4",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-06-19T07:38:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ae52df2_bb2b6783",
       "revId": "5fbb71ab60daa305e5fb3c2687350c5778259567",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
