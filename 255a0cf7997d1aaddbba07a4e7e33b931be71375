@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6ae52df2_fb35efdb",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-06-25T07:14:14Z",
+      "side": 1,
+      "message": "s/gerrit/Gerrit\n\nAlso at lines 451 and 459.",
+      "revId": "255a0cf7997d1aaddbba07a4e7e33b931be71375",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ab4e9dd_ba529117",
+        "filename": "hooks-its/src/main/resources/Documentation/config.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 462,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-06-25T07:14:14Z",
+      "side": 1,
+      "message": "Unnecessary comma.",
+      "revId": "255a0cf7997d1aaddbba07a4e7e33b931be71375",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
