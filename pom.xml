@@ -22,10 +22,15 @@ limitations under the License.
   <groupId>com.googlesource.gerrit.plugins.its</groupId>
   <artifactId>hooks-its-parent</artifactId>
   <packaging>pom</packaging>
-  <version>2.6-SNAPSHOT</version>
+  <version>2.6</version>
+
+  <properties>
+    <Gerrit-ApiType>plugin</Gerrit-ApiType>
+    <Gerrit-ApiVersion>${project.version}</Gerrit-ApiVersion>
+  </properties>
 
   <name>Gerrit Code Review - Issue tracker support</name>
-  
+
   <modules>
     <module>hooks-its</module>
   </modules>
@@ -261,8 +266,8 @@ limitations under the License.
 
   <repositories>
     <repository>
-      <id>gerrit-maven</id>
-      <url>https://gerrit-maven.commondatastorage.googleapis.com</url>
+      <id>gerrit-api-repository</id>
+      <url>https://gerrit-api.commondatastorage.googleapis.com/snapshot/</url>
     </repository>
-    </repositories>
+  </repositories>
 </project>
