@@ -31,6 +31,8 @@ import com.google.gerrit.server.git.validators.CommitValidationException;
 import com.google.gerrit.server.git.validators.CommitValidationListener;
 import com.google.gerrit.server.git.validators.CommitValidationMessage;
 import com.google.inject.Inject;
+
+import com.googlesource.gerrit.plugins.hooks.its.ItsConfig;
 import com.googlesource.gerrit.plugins.hooks.its.ItsFacade;
 import com.googlesource.gerrit.plugins.hooks.its.ItsName;
 import com.googlesource.gerrit.plugins.hooks.util.IssueExtractor;
@@ -49,6 +51,9 @@ public class ItsValidateComment implements CommitValidationListener {
 
   @Inject @ItsName
   private String itsName;
+
+  @Inject
+  private ItsConfig itsConfig;
 
   @Inject
   private IssueExtractor issueExtractor;
@@ -149,6 +154,10 @@ public class ItsValidateComment implements CommitValidationListener {
   @Override
   public List<CommitValidationMessage> onCommitReceived(
       CommitReceivedEvent receiveEvent) throws CommitValidationException {
-    return validCommit(receiveEvent.command, receiveEvent.commit);
+    if (itsConfig.isEnabled(receiveEvent.project.getName())) {
+      return validCommit(receiveEvent.command, receiveEvent.commit);
+    } else {
+      return Collections.emptyList();
+    }
   }
 }
