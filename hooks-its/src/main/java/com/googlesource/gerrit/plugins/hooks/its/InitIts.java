@@ -14,9 +14,15 @@
 
 package com.googlesource.gerrit.plugins.hooks.its;
 
+import com.google.gerrit.pgm.init.AllProjectsConfig;
 import com.google.gerrit.pgm.init.InitStep;
 import com.google.gerrit.pgm.init.Section;
 import com.google.gerrit.pgm.util.ConsoleUI;
+
+import org.eclipse.jgit.errors.ConfigInvalidException;
+import org.eclipse.jgit.lib.Config;
+
+import java.io.IOException;
 
 public class InitIts implements InitStep {
 
@@ -26,11 +32,34 @@ public class InitIts implements InitStep {
     TRUE, FALSE;
   }
 
-  @Override
-  public void run() throws Exception {
+  private final String itsName;
+  private final String itsDisplayName;
+  protected final ConsoleUI ui;
+  private final AllProjectsConfig allProjectsConfig;
+
+
+  public InitIts(String itsName, String itsDisplayName, ConsoleUI ui,
+      AllProjectsConfig allProjectsConfig) {
+    this.itsName = itsName;
+    this.itsDisplayName = itsDisplayName;
+    this.ui = ui;
+    this.allProjectsConfig = allProjectsConfig;
   }
 
-  public boolean isConnectivityRequested(ConsoleUI ui, String url) {
+  @Override
+  public void run() throws IOException, ConfigInvalidException {
+    ui.header(itsDisplayName + " Integration");
+    boolean enabled = ui.yesno(true, "By default enabled for all projects");
+    Config cfg = allProjectsConfig.load();
+    if (enabled) {
+      cfg.setBoolean("plugin", itsName, "enabled", enabled);
+    } else {
+      cfg.unset("plugin", itsName, "enabled");
+    }
+    allProjectsConfig.save(itsName, "Initialize " + itsDisplayName + " Integration");
+  }
+
+  public boolean isConnectivityRequested(String url) {
     return ui.yesno(false, "Test connectivity to %s", url);
   }
 
