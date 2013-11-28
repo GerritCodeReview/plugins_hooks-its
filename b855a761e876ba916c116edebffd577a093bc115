@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "231a8eb4_06e35a4b",
+        "filename": "hooks-its/.settings/org.eclipse.jdt.core.prefs",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-11-28T05:31:22Z",
+      "side": 1,
+      "message": "This will be bumped up to 1.7 on master [1].  It would be better to wait until that is merged.\n\n[1] https://gerrit-review.googlesource.com/#/c/51837/",
+      "revId": "b855a761e876ba916c116edebffd577a093bc115",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
