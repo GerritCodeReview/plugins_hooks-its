@@ -28,6 +28,7 @@ import com.google.common.collect.Lists;
 import com.google.gerrit.extensions.annotations.PluginName;
 import com.google.gerrit.server.config.GerritServerConfig;
 import com.google.gerrit.server.events.CommitReceivedEvent;
+import com.google.gerrit.server.git.GitRepositoryManager;
 import com.google.gerrit.server.git.validators.CommitValidationException;
 import com.google.gerrit.server.git.validators.CommitValidationListener;
 import com.google.gerrit.server.git.validators.CommitValidationMessage;
@@ -154,10 +155,15 @@ public class ItsValidateComment implements CommitValidationListener {
   @Override
   public List<CommitValidationMessage> onCommitReceived(
       CommitReceivedEvent receiveEvent) throws CommitValidationException {
-    if (itsConfig.isEnabled(receiveEvent.project.getName())) {
-      return validCommit(receiveEvent.command, receiveEvent.commit);
-    } else {
+    if (!itsConfig.isEnabled(receiveEvent.project.getName())
+        || isConfig(receiveEvent)) {
       return Collections.emptyList();
+    } else {
+      return validCommit(receiveEvent.command, receiveEvent.commit);
     }
+  }
+
+  private static boolean isConfig(CommitReceivedEvent event) {
+    return GitRepositoryManager.REF_CONFIG.equals(event.refName);
   }
 }
