@@ -48,14 +48,19 @@ public class InitIts implements InitStep {
 
   @Override
   public void run() throws IOException, ConfigInvalidException {
+    Config cfg = allProjectsConfig.load();
     ui.message("\n");
     ui.header(itsDisplayName + " Integration");
-    boolean enabled = ui.yesno(true, "By default enabled for all projects");
-    Config cfg = allProjectsConfig.load();
-    if (enabled) {
-      cfg.setBoolean("plugin", itsName, "enabled", enabled);
+    boolean enforced = ui.yesno(false, "By default enforced for all projects");
+    if (enforced) {
+      cfg.setString("plugin", itsName, "enabled", "enforced");
     } else {
-      cfg.unset("plugin", itsName, "enabled");
+      boolean enabled = ui.yesno(true, "By default enabled for all projects");
+      if (enabled) {
+        cfg.setBoolean("plugin", itsName, "enabled", enabled);
+      } else {
+        cfg.unset("plugin", itsName, "enabled");
+      }
     }
     allProjectsConfig.save(itsName, "Initialize " + itsDisplayName + " Integration");
   }
