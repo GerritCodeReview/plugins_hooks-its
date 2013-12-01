@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "83d09a10_c1e762c9",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/validation/ItsValidateComment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-12-01T18:04:10Z",
+      "side": 1,
+      "message": "s/pluginsName/pluginName/",
+      "range": {
+        "startLine": 52,
+        "startChar": 23,
+        "endLine": 52,
+        "endChar": 24
+      },
+      "revId": "f08e95b39c84ae8e6d92b2711e1ac4394ebfc352",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
