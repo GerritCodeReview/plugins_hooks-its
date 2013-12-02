@@ -34,6 +34,24 @@
       "revId": "9330cdee782adc336c3cf79db904a64a678fbeaf",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "03174a8c_c553fac8",
+        "filename": "pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1011123
+      },
+      "writtenOn": "2013-12-02T15:13:10Z",
+      "side": 1,
+      "message": "Can it not be fixed in this change?  I don\u0027t think it\u0027s worth a separate change.",
+      "parentUuid": "83d09a10_e16e2644",
+      "revId": "9330cdee782adc336c3cf79db904a64a678fbeaf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
