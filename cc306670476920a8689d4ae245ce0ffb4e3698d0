@@ -16,6 +16,24 @@
       "revId": "cc306670476920a8689d4ae245ce0ffb4e3698d0",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a3cbde64_8232ba74",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2013-12-02T15:42:42Z",
+      "side": 1,
+      "message": "Yes, it makes sense to have this in the documentation. But this functionality (having associations in the commit message and the policies for it) are described in the documentation of the plugins that use the hooks-its plugin. I will update it there after this change is merged.",
+      "parentUuid": "03174a8c_e5cb9636",
+      "revId": "cc306670476920a8689d4ae245ce0ffb4e3698d0",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
