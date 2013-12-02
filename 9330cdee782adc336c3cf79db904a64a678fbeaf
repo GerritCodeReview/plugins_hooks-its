@@ -16,6 +16,24 @@
       "revId": "9330cdee782adc336c3cf79db904a64a678fbeaf",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "83d09a10_e16e2644",
+        "filename": "pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2013-12-02T15:10:54Z",
+      "side": 1,
+      "message": "But not introduced by this change ;-)",
+      "parentUuid": "231a8eb4_2625b63f",
+      "revId": "9330cdee782adc336c3cf79db904a64a678fbeaf",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
