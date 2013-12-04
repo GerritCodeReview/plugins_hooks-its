@@ -55,6 +55,20 @@ system integration a project can enforce the issue tracker system
 integration for all child projects by setting
 `plugin.<its-name>.enabled` to `enforced`.
 
+To limit the issue tracker system integration to certain branches one
+or many refs, ref patterns or regular expressions can be specified as
+`plugin.<its-name>.branch`.
+
+E.g. to limit the issue tracker system integration to the `master`
+branch and all stable branches the following could be configured.:
+
+```
+  [plugin "<its-name>"]
+    enabled = true
+    branch = refs/heads/master
+    branch = ^refs/heads/stable-.*
+```
+
 
 [[config-rule-base]]
 Rule base for Actions
