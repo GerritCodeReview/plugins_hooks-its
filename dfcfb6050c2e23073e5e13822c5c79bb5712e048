@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c3a7f221_8b1a2d52",
+        "filename": "pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1012155
+      },
+      "writtenOn": "2013-12-09T12:09:21Z",
+      "side": 1,
+      "message": "I cannot find com.google.gerrit:gerrit-plugin-api:jar:2.9-SNAPSHOT in that\nrepository.\n\nWhat problem is solved by adding the repository?",
+      "revId": "dfcfb6050c2e23073e5e13822c5c79bb5712e048",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
