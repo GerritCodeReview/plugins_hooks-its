@@ -22,6 +22,30 @@
       "revId": "5994224c3e0d0ab8f03b603f90b4f17004316ea1",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "edfb05cc_c4861e00",
+        "filename": "hooks-its/src/main/java/com/googlesource/gerrit/plugins/hooks/its/InitIts.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1003935
+      },
+      "writtenOn": "2014-01-13T15:15:19Z",
+      "side": 1,
+      "message": "Yes, you understood it correctly.\n\nHaving it in just one question as you propose is much better. Done in the new change [1].\n\n[1] https://gerrit-review.googlesource.com/53651",
+      "parentUuid": "682c637b_48fcdf8c",
+      "range": {
+        "startLine": 57,
+        "startChar": 24,
+        "endLine": 57,
+        "endChar": 77
+      },
+      "revId": "5994224c3e0d0ab8f03b603f90b4f17004316ea1",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
